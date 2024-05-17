@@ -1,59 +1,22 @@
-# ABOUT
-Find more infos on the [official MDP page](http://multidatespickr.sf.net).
-__CAUTION__: 1.6.x has changes to methods and options that are incompatible with previous versions of the same methods.
+Leave Management System-
+LeaveEase is a comprehensive leave management system designed to simplify and optimize the process of managing employee absences within your organization. With its intuitive interface and robust features, LeaveEase empowers HR professionals, managers, and employees alike to efficiently handle leave requests, ensure compliance with company policies and regulations, and maintain productivity across teams.
 
-# WHAT'S NEW
-## v1.6.3
-* Added "destroy" method.
-* Added method "value" that returns the string value that would be used in input elements.
-* Refreshing calendar if dates are modified using MDP methods.
-* Fixed the link within altField, input field and their initial html value attribute.
-* Minor changes.
+Key Features:
 
-## v1.6.2
-* Bug fixes
+Effortless Leave Requests: Employees can easily submit leave requests through a user-friendly interface accessible from any device. They can specify the type of leave, duration, and any relevant notes, streamlining the request process.
 
-## v1.6.1
-* Any preloaded values in input text field or altField are added to the calendar automatically.
-* Now 'beforeShowDay' is as transparent as it can be.
+Automated Approval Workflow: Managers receive instant notifications of new leave requests and can review and approve them with a few clicks. Customizable approval workflows ensure that requests are routed to the appropriate manager for swift decision-making.
 
-## v1.6.0
-__CAUTION__: 1.6.x has changes to methods and options that are incompatible with previous versions of the same methods.
-* Simplified 'mode' options syntax.
-* Changed the way 'removeDates' works, now it receives dates instead of indexes.
-* Added 'removeIndexes' method, that is a fixed version of the previous 'removeDates' method.
-* Added numeric format (milliseconds) as date format available.
-* Fixed 'pickableRange' option.
-* Improved conversion method.
+Centralized Leave Calendar: LeaveEase provides a centralized calendar that displays approved leave requests, enabling managers and team members to visualize employee availability and plan projects accordingly. This promotes transparency and avoids scheduling conflicts.
 
-## v1.5.3
-*	Fixed method 'removeDates' does not work when passing an array of indexes.
-*	Added an error when method 'addDates' receives an empty array.
+Accrual Tracking and Balances: The system automatically tracks leave accruals and balances for different types of leave, such as vacation days, sick leave, and personal days. Employees can view their remaining balances, empowering them to make informed decisions about their time off.
 
-## v1.5.2
-*	Fills the input field with pre selected dates on load.
-*	Deleted an exceeded comma that caused problems in IE7 and earlier.
+Compliance Management: LeaveEase helps organizations stay compliant with labor laws and company policies by enforcing leave entitlements, tracking statutory holidays, and ensuring consistency in leave administration across the organization.
 
-## v1.5.1
-*	[Fixes the `altField` filled with `defaultDate` by default.](https://sourceforge.net/tracker/?func=detail&atid=1495382&aid=3404699&group_id=358205)
+Reporting and Analytics: Generate insightful reports and analytics on leave usage, trends, and patterns to inform strategic decision-making and resource planning. Identify areas for improvement and optimize leave policies based on data-driven insights.
 
-## v1.5.0
-__CAUTION__: 1.5.x has changes to methods and options that are incompatible with previous versions of the same methods.
-*	changed AVOIDED term with DISABLED so, for example, `addAvoidedDates` now is `addDisabledDates`.
-*	[added `altField` capability.](https://sourceforge.net/tracker/?func=detail&aid=3401147&group_id=358205&atid=1495382)
-*	[fixed `jQuery.noConflict()`.](https://sourceforge.net/tracker/?func=detail&aid=3392035&group_id=358205&atid=1495382)
-*	[fixed two days selection instead of only one.](https://sourceforge.net/tracker/?func=detail&aid=3390576&group_id=358205&atid=1495382)
+Integration Capabilities: LeaveEase seamlessly integrates with other HR systems, such as payroll and time tracking software, to streamline data flow and ensure consistency across HR processes. This integration eliminates manual data entry and reduces administrative overhead.
 
-## v1.4.0
-*	[Added support for datepicker from input fields.](https://sourceforge.net/tracker/?func=detail&aid=3083801&group_id=358205&atid=1495385)
+Conclusion:
 
-## v1.3.5
-*	Changed the default minimum date from `Date()` to `Date(0)`.
-*	Fixed some bugs when trying to compare a date with an unknown object: now the unknown object is considered as `Date(0)`.
-*	Some code reorganization.
-
-## v1.3.0
-*	General bugs fixes.
-
-## v1.2.0
-*	First public version.
+LeaveEase revolutionizes leave management by providing a unified platform that simplifies the entire leave management process. From request submission to approval, tracking, and reporting, LeaveEase offers a comprehensive solution that enhances efficiency, transparency, and compliance within your organization. Say goodbye to manual leave tracking and embrace a smarter approach with LeaveEase.
